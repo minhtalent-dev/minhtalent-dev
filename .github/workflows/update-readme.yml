@@ -1,0 +1,31 @@
+name: Update GitHub Profile README
+
+on:
+  schedule:
+    - cron: '0 */12 * * *' # Chạy mỗi 12 giờ
+  workflow_dispatch: # Cho phép trigger thủ công
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Cấp quyền ghi để push commit cập nhật README.md
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Update README.md
+        env:
+          MINLAB_API_URL: "https://minlab.top/api/blog/latest"
+        run: node scripts/update-readme.js
+
+      - name: Commit and Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update latest blog posts from MinLab"
+          file_pattern: "README.md"

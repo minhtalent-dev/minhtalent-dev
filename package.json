@@ -1,0 +1,8 @@
+{
+  "name": "github-home",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "update-readme": "node scripts/update-readme.js"
+  }
+}
