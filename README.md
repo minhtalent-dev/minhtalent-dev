@@ -19,10 +19,11 @@ Welcome to my personal GitHub profile. I'm a developer, tech enthusiast, and bui
 <summary><b>💻 Featured projects</b></summary>
 <br/>
 
-- **MinLab**: A platform for sharing technology knowledge and solutions.
-- **Nexustock**: Smart inventory management system with multi-branch support and real-time stock tracking.
-- **Office Document Translator**: High-speed office document (Word, Excel, PDF) translation tool supporting various AI translation models.
-- **ApiManager**: Integrated interface for managing, analyzing, and optimizing APIs.
+- **MinLab**: Personal portfolio and technology blog built with Next.js, Tailwind CSS, and SQLite. Tightly integrates dynamic AI agents, Cloudinary media upload, and Resend email services.
+- **Nexustock**: Production-ready inventory management system. Developed using Next.js, Tailwind CSS, and ASP.NET Core Web API with PostgreSQL database. Streamlines warehouse logistics with multi-branch support and real-time tracking.
+- **FormManager**: Enterprise form administration system. Built on ASP.NET Core MVC and EF Core. Implements complex multi-level digital signature approval workflows, Hangfire background queue jobs, and real-time communication via SignalR.
+- **MES Manager**: Manufacturing execution assistant tool. Powered by ASP.NET Core MVC, EF Core, and Tabler dashboard. Simplifies query and maintenance of production cargo data, minimizing IT support overhead and boosting system availability.
+- **Office Document Translator**: Offline multi-language file translator. Built with Python and PySide6/QFluentWidgets. Automatically translates Office documents (Word, Excel, PDF) using local AI models while strictly preserving original styling, featuring custom translation glossaries and auto-updates.
 
 </details>
 
@@ -30,10 +31,9 @@ Welcome to my personal GitHub profile. I'm a developer, tech enthusiast, and bui
 <summary><b>📊 Skills & stats</b></summary>
 <br/>
 
-- **Frontend**: Next.js, React, Tailwind CSS, Bootstrap 5
-- **Backend**: ASP.NET Core, Node.js, Express
-- **Database**: SQLite, Turso, MSSQL, PostgreSQL
-- **AI/ML**: Integration of OpenAI, Gemini, Groq, and local LLMs
+- **Desktop Apps**: C# .NET (WPF, Windows Forms, WinUI 3) & Python (PySide6, QFluentWidgets)
+- **Web & Backend**: ASP.NET Core MVC / Web API, SignalR, Entity Framework (EF) Core, Next.js, Tailwind CSS, Node.js
+- **DevOps & Database**: SQL Server, PostgreSQL, SQLite/LibSQL, Docker, CI/CD pipelines, Background Queue (Hangfire)
 
 ### 📈 GitHub Stats
 ![GitHub Stats](https://github-stats-extended.vercel.app/api?username=minhtalent-dev&show_icons=true&theme=dark)
