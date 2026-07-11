@@ -1,4 +1,4 @@
-# Hi there! I'm Founder 👋
+# Hi there! I'm Từ Thiện Bảo Minh 👋
 
 <details open>
 <summary><b>🏠 Home</b></summary>
