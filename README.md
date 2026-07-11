@@ -55,8 +55,8 @@ Welcome to my personal GitHub profile. I'm a developer, tech enthusiast, and bui
 <br/>
 
 ### 🖥️ MinLab server status (real-time)
-![MinLab Server Metrics](http://localhost:3001/api/public/metrics-svg)
-<!-- ![MinLab Server Metrics](https://minlab.top/api/public/metrics-svg) -->
+<!-- ![MinLab Server Metrics](http://localhost:3001/api/public/metrics-svg) -->
+![MinLab Server Metrics](https://minlab.top/api/public/metrics-svg)
 
 </details>
 
