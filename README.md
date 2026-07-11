@@ -1,20 +1,16 @@
 # Hi there! I'm Founder 👋
 
-Welcome to my personal GitHub profile. I'm a developer, tech enthusiast, and builder of modern web applications.
-
 <details open>
 <summary><b>🏠 Trang chủ</b></summary>
 <br/>
 
-## 📝 Bài viết mới nhất
-<!-- START_BLOG_POSTS -->
-<details open>
-  <summary><b>Từ blog MinLab.top</b></summary>
-  <br/>
+Welcome to my personal GitHub profile. I'm a developer, tech enthusiast, and builder of modern web applications.
 
-  *   [7 Best Claude Code Alternatives for 2026](https://minlab.top/en/blog/7-cong-cu-thay-the-claude-code-tot-nhat-nam-2026) - *11/07/2026*
-  *   [Xây dựng hệ thống Multi-AI Agent với Next.js và Gemini](https://minlab.top/vi/blog/build-multi-ai-agent-nextjs-gemini) - *09/07/2026*
-</details>
+### 📝 Bài viết mới nhất từ blog MinLab.top
+<!-- START_BLOG_POSTS -->
+* [7 Best Claude Code Alternatives for 2026](https://minlab.top/en/blog/7-cong-cu-thay-the-claude-code-tot-nhat-nam-2026) - *11/07/2026*
+* [Xây dựng hệ thống Multi-AI Agent với Next.js và Gemini](https://minlab.top/vi/blog/build-multi-ai-agent-nextjs-gemini) - *09/07/2026*
+
 <!-- END_BLOG_POSTS -->
 
 </details>
@@ -40,7 +36,7 @@ Welcome to my personal GitHub profile. I'm a developer, tech enthusiast, and bui
 - **AI/ML**: Tích hợp các API của OpenAI, Gemini, Groq và các mô hình ngôn ngữ lớn (LLM) chạy cục bộ
 
 ### 📈 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=minhtalent-dev&show_icons=true&theme=dark)
+![GitHub Stats](https://github-stats-extended.vercel.app/api?username=minhtalent-dev&show_icons=true&theme=dark)
 
 </details>
 

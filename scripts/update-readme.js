@@ -12,7 +12,7 @@ async function updateReadme() {
     const posts = await response.json();
     console.log(`Successfully fetched ${posts.length} posts.`);
 
-    let postsMarkdown = '<details open>\n  <summary><b>Từ blog MinLab.top</b></summary>\n  <br/>\n\n';
+    let postsMarkdown = '';
     
     if (posts && posts.length > 0) {
       posts.forEach(post => {
@@ -33,12 +33,11 @@ async function updateReadme() {
           console.warn('Failed to parse date:', post.createdAt, e);
         }
 
-        postsMarkdown += `  *   [${title}](${postUrl})${dateStr}\n`;
+        postsMarkdown += `* [${title}](${postUrl})${dateStr}\n`;
       });
     } else {
-      postsMarkdown += '  *   Chưa có bài viết mới nào.\n';
+      postsMarkdown += '* Chưa có bài viết mới nào.\n';
     }
-    postsMarkdown += '</details>';
 
     const readmePath = path.join(__dirname, '..', 'README.md');
     if (!fs.existsSync(readmePath)) {
