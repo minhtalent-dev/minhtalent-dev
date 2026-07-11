@@ -36,7 +36,7 @@ async function updateReadme() {
         postsMarkdown += `* [${title}](${postUrl})${dateStr}\n`;
       });
     } else {
-      postsMarkdown += '* Chưa có bài viết mới nào.\n';
+      postsMarkdown += '* No new posts available.\n';
     }
 
     const readmePath = path.join(__dirname, '..', 'README.md');
